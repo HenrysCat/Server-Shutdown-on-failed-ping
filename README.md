@@ -4,7 +4,7 @@ A simple Powershell script to shutdown a server if another shuts down, e.g. one 
 
 This script is to be run on the second server and will ping the first server connected to the UPS, after 3 consecutive failed pings it will initiate a shutdown.
 
-To run in Task sheduler use the following (this assumes the script is in the root of C drive)
+To run in Task Sheduler, select run with highest privileges and use the following (this assumes the script is in the root of C drive)
 
 Program/script
 
