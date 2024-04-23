@@ -7,7 +7,9 @@ This script is to be run on the second server and will ping the first server con
 To run in Task sheduler use the following (this assumes the script is in the root of C drive)
 
 Program/script
+
 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
 
 Add arguments (optional)
+
 -ExecutionPolicy Bypass -file "C:\ShutdownServer2.ps1"
